@@ -9,7 +9,7 @@ env:
   UBUNTU_VERSION: 22.04
   BUILDX_NO_DEFAULT_ATTESTATIONS: 1
   # Conservative defaults for cloud providers
-  LATEST_CUDA: "pytorch-2.1.2-py3.10-cuda-11.8.0-runtime-22.04"
+  LATEST_CUDA: "pytorch-2.5.1-py3.11-cuda-12.4.0-runtime-22.04"
 
 jobs:
   nvidia-base:
